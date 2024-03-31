@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="w-full bg-slate-100">
+    <div class="w-full top-0 bg-zinc-950 h-[70px] lg:h-[86px] flex">
+      <div class="lg:px-20 px-4 flex items-center justify-between w-full">
+        <div class="flex gap-4 py-4">
+          <img
+            class="w-10 h-auto"
+            src="https://kampusmerdeka.kemdikbud.go.id/static/media/logo-pendidikan@2x.0ce0acdc.webp"
+            alt=""
+          />
+          <img
+            class="w-16 h-auto"
+            src="https://kampusmerdeka.kemdikbud.go.id/static/media/logo-white@2x.5330316a.webp"
+            alt=""
+          />
+        </div>
+        <div class="lg:hidden">
+          <svg
+            onclick="Menu(this)"
+            viewBox="0 0 24 24"
+            height="25"
+            fill="#FFFFFF"
+            stroke=""
+          >
+            <path
+              d="M20,18H4c-0.6,0-1-0.4-1-1s0.4-1,1-1h16c0.6,0,1,0.4,1,1S20.6,18,20,18z M20,13H4c-0.6,0-1-0.4-1-1s0.4-1,1-1h16  c0.6,0,1,0.4,1,1S20.6,13,20,13z M20,8H4C3.4,8,3,7.6,3,7s0.4-1,1-1h16c0.6,0,1,0.4,1,1S20.6,8,20,8z"
+            ></path>
+          </svg>
+        </div>
+        <ul
+          class="text-black bg-white w-full lg:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 lg:w-auto left-0 lg:bg-black lg:text-white mt-3 lg:justify-center lg:gap-10 lg:font-bold lg:static absolute lg:flex"
+        >
+          <li class="mx-4 my-2"><a href="">Beranda</a></li>
+          <li class="mx-4 my-2"><a href="">Program</a></li>
+          <li class="mx-4 my-2"><a href="">Butuh Bantuan?</a></li>
+          <button class="text-black mx-4 lg:bg-white rounded-3xl">
+            Masuk ke Akun
+          </button>
+        </ul>
+      </div>
+    </div>
+    <div class="w-full top-0 bg-white h-[86px] lg:flex hidden">
+      <div class="px-20 flex items-center w-full gap-8">
+        <div
+          class="hover:bg-gray-400 hover:text-blue-400 h-full w-36 flex p-3 items-center font-bold"
+        >
+          Kampus Mengajar
+        </div>
+        <div
+          class="hover:bg-gray-400 hover:text-blue-400 h-full w-36 flex p-3 items-center font-bold"
+        >
+          Magang MSIB
+        </div>
+        <div
+          class="hover:bg-gray-400 hover:text-blue-400 h-full w-52 flex p-3 items-center font-bold"
+        >
+          Studi Independen Bersertifikat
+        </div>
+        <div
+          class="hover:bg-gray-400 hover:text-blue-400 h-full w-48 flex p-3 items-center font-bold"
+        >
+          Pertukaran Mahasiswa Merdeka
+        </div>
+        <div
+          class="hover:bg-gray-400 hover:text-blue-400 h-full w-44 flex p-3 items-center font-bold"
+        >
+          Program dan Kegiatan Lainnya
+        </div>
+      </div>
+    </div>
+    <div class="w-full h-full px-4 lg:px-20 mt-10">
+      <div class="mb-7 font-bold text-3xl">Program Kampus Merdeka</div>
+      <div class="grid lg:grid-cols-3 grid-cols-1 gap-3">
+        <div class="bg-white px-4 py-4 text-black rounded-2xl">
+          <div class="mb-5 lg:px-28">
+            <img
+              class="w-28 lg:w-40"
+              src="https://kampusmerdeka.kemdikbud.go.id/static/media/kampus-mengajar-logo-mobile@2x.8e394d30.webp"
+              alt=""
+            />
+          </div>
+          <div class="text-xl font-bold mb-1">Kampus Mengajar</div>
+          <div class="text-sm text-gray-600 mb-11">
+            Bantu peningkatan kualitas pendidikan dasar dengan terlibat langsung
+            pada proses pengajaran di sekolah-sekolah yang berlokasi di seluruh
+            daerah di Indonesia.
+          </div>
+          <hr />
+          <div class="text-blue-500 py-3 flex justify-between">
+            <div>Tentang Program</div>
+            <div>
+              <svg viewBox="0 0 24 24" height="24" fill="#0087C8" stroke="">
+                <path
+                  d="M13,19c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l4.3-4.3H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.6l-4.3-4.3  c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l6,6c0.1,0.1,0.2,0.2,0.2,0.3c0,0.1,0.1,0.2,0.1,0.4l0,0c0,0,0,0,0,0l0,0c0,0.1,0,0.3-0.1,0.4  c0,0.1-0.1,0.2-0.2,0.3l-6,6C13.5,18.9,13.3,19,13,19z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <hr />
+          <div class="text-blue-500 py-3 flex justify-between">
+            <div>Syarat dan Ketentuan</div>
+            <div>
+              <svg viewBox="0 0 24 24" height="24" fill="#0087C8" stroke="">
+                <path
+                  d="M13,19c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l4.3-4.3H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.6l-4.3-4.3  c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l6,6c0.1,0.1,0.2,0.2,0.2,0.3c0,0.1,0.1,0.2,0.1,0.4l0,0c0,0,0,0,0,0l0,0c0,0.1,0,0.3-0.1,0.4  c0,0.1-0.1,0.2-0.2,0.3l-6,6C13.5,18.9,13.3,19,13,19z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white px-4 py-4 text-black rounded-2xl">
+          <div class="mb-5 lg:px-28">
+            <img
+              class="w-28 lg:w-40"
+              src="https://kampusmerdeka.kemdikbud.go.id/static/media/msib-logo-mobile@2x.f971d948.webp"
+              alt=""
+            />
+          </div>
+          <div class="text-xl font-bold mb-1">Magang MSIB</div>
+          <div class="text-sm text-gray-600 mb-6">
+            Dapatkan pengalaman dunia kerja secara langsung sebagai persiapan
+            kariermu.
+          </div>
+          <div
+            class="border text-center border-black rounded-2xl py-3 font-bold mb-4"
+          >
+            <button>Cari Posisi Magang</button>
+          </div>
+          <hr />
+          <div class="text-blue-500 py-3 flex justify-between">
+            <div>Tentang Program</div>
+            <div>
+              <svg viewBox="0 0 24 24" height="24" fill="#0087C8" stroke="">
+                <path
+                  d="M13,19c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l4.3-4.3H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.6l-4.3-4.3  c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l6,6c0.1,0.1,0.2,0.2,0.2,0.3c0,0.1,0.1,0.2,0.1,0.4l0,0c0,0,0,0,0,0l0,0c0,0.1,0,0.3-0.1,0.4  c0,0.1-0.1,0.2-0.2,0.3l-6,6C13.5,18.9,13.3,19,13,19z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <hr />
+          <div class="text-blue-500 py-3 flex justify-between">
+            <div>Syarat dan Ketentuan</div>
+            <div>
+              <svg viewBox="0 0 24 24" height="24" fill="#0087C8" stroke="">
+                <path
+                  d="M13,19c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l4.3-4.3H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.6l-4.3-4.3  c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l6,6c0.1,0.1,0.2,0.2,0.2,0.3c0,0.1,0.1,0.2,0.1,0.4l0,0c0,0,0,0,0,0l0,0c0,0.1,0,0.3-0.1,0.4  c0,0.1-0.1,0.2-0.2,0.3l-6,6C13.5,18.9,13.3,19,13,19z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white px-4 py-4 text-black rounded-2xl">
+          <div class="mb-5 lg:px-28">
+            <img
+              class="w-28"
+              src="https://kampusmerdeka.kemdikbud.go.id/static/media/msib-logo-mobile@2x.f971d948.webp"
+              alt=""
+            />
+          </div>
+          <div class="text-xl font-bold mb-1">Studi Independen</div>
+          <div class="text-sm text-gray-600 mb-6">
+            Jalankan proyek penelitian dengan studi kasus nyata dari para pelaku
+            industri ternama.
+          </div>
+          <div
+            class="border text-center border-black rounded-2xl py-3 font-bold mb-4"
+          >
+            <button>Cari Kelas Studi Independen</button>
+          </div>
+          <hr />
+          <div class="text-blue-500 py-3 flex justify-between">
+            <div>Tentang Program</div>
+            <div>
+              <svg viewBox="0 0 24 24" height="24" fill="#0087C8" stroke="">
+                <path
+                  d="M13,19c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l4.3-4.3H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.6l-4.3-4.3  c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l6,6c0.1,0.1,0.2,0.2,0.2,0.3c0,0.1,0.1,0.2,0.1,0.4l0,0c0,0,0,0,0,0l0,0c0,0.1,0,0.3-0.1,0.4  c0,0.1-0.1,0.2-0.2,0.3l-6,6C13.5,18.9,13.3,19,13,19z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <hr />
+          <div class="text-blue-500 py-3 flex justify-between">
+            <div>Syarat dan Ketentuan</div>
+            <div>
+              <svg viewBox="0 0 24 24" height="24" fill="#0087C8" stroke="">
+                <path
+                  d="M13,19c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l4.3-4.3H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.6l-4.3-4.3  c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l6,6c0.1,0.1,0.2,0.2,0.2,0.3c0,0.1,0.1,0.2,0.1,0.4l0,0c0,0,0,0,0,0l0,0c0,0.1,0,0.3-0.1,0.4  c0,0.1-0.1,0.2-0.2,0.3l-6,6C13.5,18.9,13.3,19,13,19z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white px-4 py-4 text-black rounded-2xl">
+          <div class="mb-5 lg:px-28">
+            <img
+              class="w-28"
+              src="https://kampusmerdeka.kemdikbud.go.id/static/media/pmm-logo-mobile@2x.75440656.webp"
+              alt=""
+            />
+          </div>
+          <div class="text-xl font-bold mb-1">Pertukaran Mahasiswa Merdeka</div>
+          <div class="text-sm text-gray-600 mb-11 lg:mb-20">
+            Program pertukaran mahasiswa dalam negeri yang memberikan pengalaman
+            langsung untuk lebih memaknai keberagaman budaya nusantara.
+          </div>
+          <hr />
+          <div class="text-blue-500 py-3 flex justify-between">
+            <div>Tentang Program</div>
+            <div>
+              <svg viewBox="0 0 24 24" height="24" fill="#0087C8" stroke="">
+                <path
+                  d="M13,19c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l4.3-4.3H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.6l-4.3-4.3  c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l6,6c0.1,0.1,0.2,0.2,0.2,0.3c0,0.1,0.1,0.2,0.1,0.4l0,0c0,0,0,0,0,0l0,0c0,0.1,0,0.3-0.1,0.4  c0,0.1-0.1,0.2-0.2,0.3l-6,6C13.5,18.9,13.3,19,13,19z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <hr />
+          <div class="text-blue-500 py-3 flex justify-between">
+            <div>Syarat dan Ketentuan</div>
+            <div>
+              <svg viewBox="0 0 24 24" height="24" fill="#0087C8" stroke="">
+                <path
+                  d="M13,19c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l4.3-4.3H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.6l-4.3-4.3  c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l6,6c0.1,0.1,0.2,0.2,0.2,0.3c0,0.1,0.1,0.2,0.1,0.4l0,0c0,0,0,0,0,0l0,0c0,0.1,0,0.3-0.1,0.4  c0,0.1-0.1,0.2-0.2,0.3l-6,6C13.5,18.9,13.3,19,13,19z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white px-4 py-3 text-black rounded-2xl">
+          <div class="mb-5 lg:px-28">
+            <img
+              class="w-28"
+              src="https://kampusmerdeka.kemdikbud.go.id/static/media/wmk-logo-mobile@2x.18201164.webp"
+              alt=""
+            />
+          </div>
+          <div class="text-xl font-bold mb-1">Wirausaha Merdeka</div>
+          <div class="text-sm text-gray-600 mb-32">
+            Ikuti program unggulan dari berbagai Perguruan Tinggi yang bertujuan
+            untuk meningkatkan kemampuan wirausaha.
+          </div>
+          <hr />
+          <div class="text-blue-500 py-3 flex justify-between">
+            <div>Syarat dan Ketentuan</div>
+            <div>
+              <svg viewBox="0 0 24 24" height="24" fill="#0087C8" stroke="">
+                <path
+                  d="M13,19c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l4.3-4.3H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.6l-4.3-4.3  c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l6,6c0.1,0.1,0.2,0.2,0.2,0.3c0,0.1,0.1,0.2,0.1,0.4l0,0c0,0,0,0,0,0l0,0c0,0.1,0,0.3-0.1,0.4  c0,0.1-0.1,0.2-0.2,0.3l-6,6C13.5,18.9,13.3,19,13,19z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white px-4 py-4 text-black rounded-2xl">
+          <div class="mb-5 lg:px-28">
+            <img
+              class="w-28"
+              src="https://kampusmerdeka.kemdikbud.go.id/static/media/iisma-logo-mobile@2x.6e2b3f47.webp"
+              alt=""
+            />
+          </div>
+          <div class="text-xl font-bold mb-1">
+            Indonesian International Student Mobility Awards
+          </div>
+          <div class="text-sm text-gray-600 mb-11 lg:mb-16">
+            Program pertukaran dengan universitas lain dari seluruh dunia untuk
+            bertukar budaya.
+          </div>
+          <hr />
+          <div class="text-blue-500 py-3 flex justify-between">
+            <div>Tentang Program</div>
+            <div>
+              <svg viewBox="0 0 24 24" height="24" fill="#0087C8" stroke="">
+                <path
+                  d="M13,19c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l4.3-4.3H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.6l-4.3-4.3  c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l6,6c0.1,0.1,0.2,0.2,0.2,0.3c0,0.1,0.1,0.2,0.1,0.4l0,0c0,0,0,0,0,0l0,0c0,0.1,0,0.3-0.1,0.4  c0,0.1-0.1,0.2-0.2,0.3l-6,6C13.5,18.9,13.3,19,13,19z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <hr />
+          <div class="text-blue-500 py-3 flex justify-between">
+            <div>Syarat dan Ketentuan</div>
+            <div>
+              <svg viewBox="0 0 24 24" height="24" fill="#0087C8" stroke="">
+                <path
+                  d="M13,19c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l4.3-4.3H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.6l-4.3-4.3  c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l6,6c0.1,0.1,0.2,0.2,0.2,0.3c0,0.1,0.1,0.2,0.1,0.4l0,0c0,0,0,0,0,0l0,0c0,0.1,0,0.3-0.1,0.4  c0,0.1-0.1,0.2-0.2,0.3l-6,6C13.5,18.9,13.3,19,13,19z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white px-4 py-4 text-black rounded-2xl mb-10">
+          <div class="mb-5 lg:px-28">
+            <img
+              class="w-28"
+              src="https://kampusmerdeka.kemdikbud.go.id/static/media/praktisi-mengajar-logo-mobile@2x.cff1458c.webp"
+              alt=""
+            />
+          </div>
+          <div class="text-xl font-bold mb-1">Praktisi Mengajar</div>
+          <div class="text-sm text-gray-600 mb-24">
+            Ruang kolaborasi antara Praktisi sebagai representasi industri
+            dengan dosen Perguruan Tinggi dalam bentuk pengajaran mata kuliah
+            agar mahasiswa lebih siap untuk masuk ke dunia kerja.
+          </div>
+          <hr />
+          <div class="text-blue-500 py-3 flex justify-between">
+            <div>Syarat dan Ketentuan</div>
+            <div>
+              <svg viewBox="0 0 24 24" height="24" fill="#0087C8" stroke="">
+                <path
+                  d="M13,19c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l4.3-4.3H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.6l-4.3-4.3  c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l6,6c0.1,0.1,0.2,0.2,0.2,0.3c0,0.1,0.1,0.2,0.1,0.4l0,0c0,0,0,0,0,0l0,0c0,0.1,0,0.3-0.1,0.4  c0,0.1-0.1,0.2-0.2,0.3l-6,6C13.5,18.9,13.3,19,13,19z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="mb-9 font-bold text-3xl mt-5">Kegiatan Lainnya</div>
+      <div class="grid lg:grid-cols-3 grid-cols-1 gap-3">
+        <div class="bg-white px-4 py-4 text-black rounded-2xl mb-40">
+          <div class="mb-5 lg:px-28">
+            <img
+              class="w-28"
+              src="https://kampusmerdeka.kemdikbud.go.id/static/media/logo-mandiri-mobile@2x.4e08d727.webp"
+              alt=""
+            />
+          </div>
+          <div class="text-xl font-bold mb-1">Magang Mandiri</div>
+          <div class="text-sm text-gray-600 mb-6">
+            Temukan pengalaman dunia kerja yang dikelola langsung oleh
+            perusahaan tanpa ada batasan kuota dan jadwal yang lebih fleksibel.
+          </div>
+          <div
+            class="border text-center border-black rounded-2xl py-3 font-bold mb-16"
+          >
+            <button>Cari Posisi Magang</button>
+          </div>
+          <hr />
+          <div class="text-blue-500 py-3 flex justify-between">
+            <div>Tentang Kegiatan</div>
+            <div>
+              <svg viewBox="0 0 24 24" height="24" fill="#0087C8" stroke="">
+                <path
+                  d="M13,19c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l4.3-4.3H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.6l-4.3-4.3  c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l6,6c0.1,0.1,0.2,0.2,0.2,0.3c0,0.1,0.1,0.2,0.1,0.4l0,0c0,0,0,0,0,0l0,0c0,0.1,0,0.3-0.1,0.4  c0,0.1-0.1,0.2-0.2,0.3l-6,6C13.5,18.9,13.3,19,13,19z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="hidden bg-black w-full h-screen text-white px-20 lg:flex justify-between pt-8"
+    >
+      <div class="flex gap-8">
+        <div>
+          <img
+            class="w-32"
+            src="https://kampusmerdeka.kemdikbud.go.id/static/media/logo-kemendikbud@2x.8229b760.webp"
+            alt=""
+          />
+        </div>
+        <div>
+          <div>
+            Direktorat Jenderal Pendidikan Tinggi, Riset, dan Teknologi
+            (Diktiristek)
+          </div>
+          <div class="mt-8">marketing@kampusmerdeka.com</div>
+        </div>
+      </div>
+      <div class="flex">
+        <div>Navigasi</div>
+      </div>
+      <div>
+        <div>Tautan Eksternal</div>
+      </div>
+    </div>
+    <div
+      class="w-full fixed bottom-0 flex justify-between px-12 text-xs bg-white h-12 lg:hidden"
+    >
+      <div>
+        <svg
+          class="mx-auto"
+          viewBox="0 0 24 24"
+          height="24"
+          fill="#A0A4A8"
+          stroke=""
+        >
+          <path d="M10,20v-6h4v6h5v-8h3L12,3L2,12h3v8H10z"></path>
+        </svg>
+        <div>Beranda</div>
+      </div>
+      <div>
+        <svg
+          class="mx-auto"
+          viewBox="0 0 24 24"
+          height="24"
+          fill="#F66951"
+          stroke=""
+        >
+          <path
+            d="M10 16V15H3.01L3 19C3 20.11 3.89 21 5 21H19C20.11 21 21 20.11 21 19V15H14V16H10ZM20 7H15.99V5L13.99 3H9.99L7.99 5V7H4C2.9 7 2 7.9 2 9V12C2 13.11 2.89 14 4 14H10V12H14V14H20C21.1 14 22 13.1 22 12V9C22 7.9 21.1 7 20 7ZM14 7H10V5H14V7Z"
+          ></path>
+        </svg>
+        <div>Program</div>
+      </div>
+      <div>
+        <svg
+          class="mx-auto"
+          viewBox="0 0 41 41"
+          height="24"
+          fill="#A0A4A8"
+          stroke=""
+        >
+          <path
+            d="M20.5,38.9c-10.1,0-18.4-8.2-18.4-18.4S10.4,2.1,20.5,2.1s18.4,8.2,18.4,18.4S30.6,38.9,20.5,38.9z M20.5,5.5  c-8.3,0-15,6.7-15,15s6.7,15,15,15s15-6.7,15-15S28.8,5.5,20.5,5.5z"
+          ></path>
+          <path
+            d="M20.4,23.9c-0.7,0-1.4-0.4-1.6-1.2c-0.3-0.9,0.2-1.8,1.1-2.1c1-0.3,3.8-1.7,3.8-3.4c0-0.8-0.3-1.5-0.8-2.1  c-0.5-0.6-1.2-1-2-1.1c-0.8-0.1-1.6,0-2.2,0.4c-0.7,0.4-1.2,1-1.4,1.8c-0.3,0.9-1.3,1.3-2.2,1c-0.9-0.3-1.3-1.3-1-2.2  c0.5-1.5,1.6-2.7,2.9-3.5c1.4-0.8,3-1.1,4.5-0.8c1.6,0.3,3,1.1,4,2.3c1,1.2,1.6,2.7,1.6,4.3c0,4.4-5.5,6.4-6.2,6.6  C20.7,23.8,20.5,23.9,20.4,23.9z"
+          ></path>
+          <path
+            d="M20.5,30.5c-0.9,0-1.7-0.8-1.7-1.7s0.7-1.7,1.7-1.7h0c0.9,0,1.7,0.8,1.7,1.7S21.4,30.5,20.5,30.5z"
+          ></path>
+        </svg>
+        <div>FAQ</div>
+      </div>
+      <div>
+        <svg
+          class="mx-auto"
+          viewBox="0 0 24 24"
+          height="24"
+          fill="#A0A4A8"
+          stroke=""
+        >
+          <path
+            d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.79 4 8 5.79 8 8C8 10.21 9.79 12 12 12ZM12 14C9.33 14 4 15.34 4 18V20H20V18C20 15.34 14.67 14 12 14Z"
+          ></path>
+        </svg>
+        <div>Masuk</div>
+      </div>
+    </div>
+    <script>
+      function Menu(e) {
+        let list = document.querySelector("ul");
+
+        e.nama === "menu"
+          ? ((e.nama = "close"),
+            list.classList.add("top-[80px]"),
+            list.classList.add("opacity-100"))
+          : ((e.nama = "menu"),
+            list.classList.remove("top-[80px]"),
+            list.classList.remove("opacity-100"));
+      }
+    </script>
+  </body>
+</html>
